@@ -1,9 +1,8 @@
-name: Nova Documentation
-
-
+name:  CryHelp
 on:
   push:
-    branches: 
+    branches:
+      - master 
       - main
 jobs:
   deploy:
@@ -14,7 +13,4 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material 
-
-
-
       - run: mkdocs gh-deploy --force
