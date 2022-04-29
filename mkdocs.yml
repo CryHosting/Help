@@ -1,0 +1,67 @@
+site_name: CryHosting Guides
+site_author: CryHosting
+site_url: https://larkify.github.io/nova-docs/
+#repo_url: https://github.com/Larkify/nova-docs/
+#repo_name: cryhosting/docs
+
+theme: 
+  name: material
+  logo: assets/hosting.png
+  favicon: assets/hosting.png
+
+  plugins:
+    - git-revision-date:
+        enabled_if_env: CI
+    - search: 
+        en
+
+  icon:
+    repo: fontawesome/brands/github-alt
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+
+extra: 
+    social:
+    ## github
+    - icon: fontawesome/brands/github
+      link: https://github.com/cryhosting
+    ## discord server
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/cryhosting
+    ## twitter
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/OfficalCryGame
+    ## youtube
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCubHehene346sKRLvnUhsVg
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - meta
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Getting started: sections/getting-started
+  - Using the Panel: sections/using-the-panel
+  - Support: sections/support
