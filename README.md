@@ -1,12 +1,4 @@
 <div align="center">
-    <a href="https://docs.larkx.xyz/">
-        <img src="https://cdn.discordapp.com/attachments/826078608442654730/875162239697555516/favicon3.png">
-    </a>
-</div>
-
-<br />
-
-<div align="center">
 
 [![forthebadge](https://github.com/Larkify/nova-docs/blob/readme-assests/made-with-mkdocs-material.svg)](https://squidfunk.github.io/mkdocs-material/)
 <br />
