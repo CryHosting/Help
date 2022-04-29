@@ -1,6 +1,6 @@
 ---
-title: Home | Nova-Docs
-description: Welcome to Nova's documentation! Here you'll find a list of all the commands, how to use them, and what they do. You can also find support links and invite the bot to your server.
+title: Home | CryHelp
+description: Welcome to Cry
 ---
 
 # **Welcome to CryHosting!**
