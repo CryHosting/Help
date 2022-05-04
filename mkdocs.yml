@@ -1,8 +1,8 @@
 site_name: CryHosting Guides
 site_author: CryHosting
-site_url: https://larkify.github.io/nova-docs/
-#repo_url: https://github.com/Larkify/nova-docs/
-#repo_name: cryhosting/docs
+site_url: https://help.cryhosting.net/
+repo_url: https://github.com/CryHosting/Help
+repo_name: cryhosting/help
 
 theme: 
   name: material
