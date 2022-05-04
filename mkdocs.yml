@@ -16,7 +16,7 @@ theme:
         en
 
   icon:
-    repo: fontawesome/brands/github-alt
+    repo: fontawesome/brands/github
   palette:
     - scheme: default
       toggle:
