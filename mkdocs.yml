@@ -67,4 +67,8 @@ nav:
     - sections/using-the-panel
     - Teams:
       - sections/using-the-panel/teams.md
+  - Using the Panel:
+    - sections/using-the-panel/index.md
+    - Teams:
+      - Teams: sections/using-the-panel/teams.md
   - Support: sections/support
