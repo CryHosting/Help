@@ -63,10 +63,6 @@ extra_css:
 nav:
   - Home: index.md
   - Getting started: sections/getting-started
-  - Using the Panel: 
-    - sections/using-the-panel
-    - Teams:
-      - sections/using-the-panel/teams.md
   - Using the Panel:
     - sections/using-the-panel/index.md
     - Teams: sections/using-the-panel/teams.md
