@@ -1,3 +1,8 @@
+---
+title: Team
+description: How to create & manage teams on our panel.
+---
+
 # Teams
 *A new & exciting feature of our custom panel is the ability to easily control groups of sub-users, we call these groups "Teams". Creating & managing teams is extremely simple and this guide will run you down on how to do it.*
 
