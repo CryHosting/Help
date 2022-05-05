@@ -1,0 +1,53 @@
+
+table {
+    transition: .3s ease-in-out;
+}
+
+th {
+    transition: .3s ease-in-out;
+}
+
+h1 {
+    transition: .3s ease-in-out;
+}
+
+code {
+    transition: .3s ease-in-out;
+}
+
+.admonition {
+    transition: .3s ease-in-out;
+}
+
+.md-tabs {
+    --md-text-font: "Water Brush";
+}
+
+:root {
+    --md-primary-fg-color: #2244cb;
+    --md-primary-fg-color--light: #ff0000;
+    --md-primary-fg-color--dark:  #90030C;
+  }
+
+.emoji {
+    font-size: 1.5rem;
+}
+
+.text {
+    padding-left: 1rem;
+}
+
+.md-search__form:hover {
+    background-color: #1f39a1;
+}
+
+
+.page-ref { 
+    padding: .2rem 1rem;
+    border: .1rem solid;
+    border-radius: .3rem;
+    color: var(--md-primary-fg-color);
+    cursor: pointer;
+    font-weight: 700;
+    transition: color 125ms,background-color 125ms,border-color 125ms;
+}
